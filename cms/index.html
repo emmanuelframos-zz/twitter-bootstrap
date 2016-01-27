@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">   
+
+    <title>Alpha CMS</title>
+
+    <link href="css/cerulean.min.css" rel="stylesheet">    
+    <link href="css/style.css"        rel="stylesheet">   
+    
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">                    
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Alpha CMS</a>
+            </div>
+            <div class="collapse navbar-collapse navbar-responsive-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html ">Dashboard</a></li>
+                    <li><a href="pages.html">Pages</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                    <li><a href="users.html">Users</a></li>
+                </ul>
+                <form class="navbar-form navbar-left search-form">
+                    <input type="text" class="form-control col-lg-8" placeholder="Search">
+                </form>
+                <ul class="nav navbar-nav navbar-right">                   
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">My Account <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Profile</a></li>                           
+                        </ul>
+                    </li>
+                    <li><a href="login.html">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="list-group">
+                      <a href="#" class="list-group-item active"><span class="glyphicon glyphicon-dashboard"></span> Dashboard</a>
+                      <a href="pages.html" class="list-group-item"><span class="glyphicon glyphicon-file"></span> Pages</a>
+                      <a href="categories.html" class="list-group-item"><span class="glyphicon glyphicon-folder-open"></span> Categories</a>
+                      <a href="users.html" class="list-group-item"><span class="glyphicon glyphicon-user"></span> User Accounts</a>                  
+                    </div>            
+                </div>
+                <div class="col-md-8">
+                    <h1 class="page-header"><i class="glyphicon glyphicon-dashboard"></i> Dashboard</h1>
+                    <h3>Latest Pages</h3>
+                    <table class="table table-striped">
+                        <tr>
+                            <th>Page Title</th>
+                            <th>Category</th>
+                            <th>Author</th>                            
+                        </tr>
+                        <tr>
+                            <td><a href="page.html">Sample Page One</a></td>
+                            <td>Category One</td>
+                            <td>John Doe</td>
+                        </tr>
+                        <tr>
+                            <td><a href="page.html">Sample Page Two</a></td>
+                            <td>Category Two</td>
+                            <td>John Doe</td>
+                        </tr>
+                        <tr>
+                            <td><a href="page.html">Sample Page Three</a></td>
+                            <td>Category Three</td>
+                            <td>John Doe</td>
+                        </tr>
+                        <tr>
+                            <td><a href="page.html">Sample Page Four</a></td>
+                            <td>Category Four</td>
+                            <td>John Doe</td>
+                        </tr>
+                        <tr>
+                            <td><a href="page.html">Sample Page Five</a></td>
+                            <td>Category Five</td>
+                            <td>John Doe</td>
+                        </tr>
+                        <tr>
+                            <td><a href="page.html">Sample Page Six</a></td>
+                            <td>Category Six</td>
+                            <td>John Doe</td>
+                        </tr>
+                    </table>
+
+                    <a class="btn btn-default" href="pages.html">View All Pages</a>
+                    <hr>
+                    <h3>Latest Users</h3>
+
+                    <table class="table table-striped">
+                        <tr>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Group</th>                            
+                        </tr>
+                        <tr>
+                            <td><a href="page.html">Serj Tankian</a></td>
+                            <td>serj@system.com</td>
+                            <td>Crazy Dogs</td>
+                        </tr>
+                        <tr>
+                            <td><a href="page.html">Daron Malakian</a></td>
+                            <td>daron@system.com</td>
+                            <td>Smack Users</td>
+                        </tr>
+                        <tr>
+                            <td><a href="page.html">Shavo Odadjian</a></td>
+                            <td>shavo@system.com</td>
+                            <td>Sk8t Intense</td>
+                        </tr>
+                        <tr>
+                            <td><a href="page.html">John Dolmayan</a></td>
+                            <td>john@system.com</td>
+                            <td>Strong Arms</td>
+                        </tr>                        
+                    </table>
+                    <a class="btn btn-default" href="users.html">View All Users</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright 2016, All Rights Reserved</p>
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</body>
+</html>
