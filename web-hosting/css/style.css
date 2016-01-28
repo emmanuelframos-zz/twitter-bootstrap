@@ -1,0 +1,62 @@
+body {
+	padding-top: 40px;
+}
+
+.jumbotron{
+	background: #bf5a16;
+}
+
+.carousel{
+	min-height: 500px;
+	margin-bottom: 60px;	
+}
+
+.carousel .button{
+	text-align: center;
+}
+
+.feature-list{
+	list-style: none;
+	margin-left:80px; 
+}
+
+.carousel-caption{
+	z-index: 10;
+	text-align: left;
+	top: 30px;
+	left: 10%;
+	right: 10%;
+	font-size: 22px;
+}
+
+.carousel .item{	
+	background-color: #777;
+}
+
+.carousel .item h1{
+	text-align: center;
+}
+
+.server-img{
+	width: 100%;
+}
+
+.marketing {
+	text-align: center;
+}
+
+.marketing h2{
+	font-weight:normal;
+}
+
+.panel-container{
+	margin-top: 30px;
+}
+
+.price strong{
+	font-size: 32px;
+}
+
+.input-form{
+	margin-top: 25px;
+}

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">   
+
+    <title>Web Hosting</title>
+
+    <link href="css/superhero.min.css"    rel="stylesheet">
+    <link href="css/style.css"            rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">   
+    
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Web Hosting</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="domains.html">Domains</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#" data-toggle="modal" data-target="#myModal">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Login</h4>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label>Email address</label>
+                <input type="email" class="form-control" placeholder="Enter Email">
+              </div>
+              <div class="form-group">
+                <label>Password</label>
+                <input type="password" class="form-control" placeholder="Enter Password">
+              </div>              
+            </form>
+          </div>
+          <div class="modal-footer">
+           <button type="submit" class="btn btn-default">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section>
+        <div id="web-hosting-carousel" class="carousel slide" data-ride="carousel">         
+          <ol class="carousel-indicators">
+            <li data-target="#web-hosting-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#web-hosting-carousel" data-slide-to="1"></li>
+            <li data-target="#web-hosting-carousel" data-slide-to="2"></li>
+          </ol>
+          
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="img/bg1.jpg">
+                <div class="container">
+                  <div class="carousel-caption">
+                    <div class="row">
+                       <div class="col-md-7">
+                          <h1>Affordable Web Hosting</h1> 
+                          <ul class="feature-list">
+                             <li><i class="fa fa-check"></i> Unlimited Disk Space</li>
+                             <li><i class="fa fa-check"></i> FREE Domain Registration</li>
+                             <li><i class="fa fa-check"></i> FREE Security Suite</li>
+                             <li><i class="fa fa-check"></i> FREE Site-Building Tools</li>
+                             <li><i class="fa fa-check"></i> FREE Online Store</li>
+                             <li><i class="fa fa-check"></i> FREE Search Engine & Marketing Credits</li>
+                             <li><i class="fa fa-check"></i> GREEN! POwered by 100% wind energy</li>
+                          </ul> 
+                          <div class="button"><a class="btn btn-primary" href="#">Sign Up Today</a></div>
+                       </div>
+                       <div class="col-md-5">
+                            <img class="server-img" src="img/servers1.png"></img>
+                       </div>
+                    </div>
+                  </div>
+                </div>  
+            </div>
+            <div class="item">
+              <img src="img/bg2.jpg">
+               <div class="carousel-caption">
+                  <div class="row">
+                    <div class="col-md-7">
+                      <h1>24/7 Support</h1>   
+                      <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic</p>                        
+                      <div class="button"><a class="btn btn-primary" href="#">Sign Up Today</a></div>
+                    </div>
+                    <div class="col-md-5">
+                      <img class="server-img" src="img/servers2.png"></img>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="item">
+              <img src="img/bg3.jpg">
+               <div class="carousel-caption">
+                  <div class="row">
+                    <div class="col-md-7">
+                      <h1>99.9% Uptime</h1>   
+                      <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic</p>                        
+                      <div class="button"><a class="btn btn-primary" href="#">Sign Up Today</a></div>
+                    </div>
+                    <div class="col-md-5">
+                      <img class="server-img" src="img/servers3.png"></img>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+         
+          <a class="left carousel-control" href="#web-hosting-carousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#web-hosting-carousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+    </section>
+
+    <section class="marketing">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <i class="fa fa-user fa-5x fa-border"></i>
+            <h2>24/7 Support</h2>
+            <p>Our support techs are always standing by to help our clients.</p>
+            <p><a class="btn btn-default" href="#">View Details</a></p>
+          </div>
+          <div class="col-md-4">
+            <i class="fa fa-wordpress fa-5x fa-border"></i>
+            <h2>One Click Installation</h2>
+            <p>Our support techs are always standing by to help our clients.</p>
+            <p><a class="btn btn-default" href="#">View Details</a></p>
+          </div>
+          <div class="col-md-4">
+            <i class="fa fa-server fa-5x fa-border"></i>
+            <h2>Daily Backups</h2>
+            <p>Our support techs are always standing by to help our clients.</p>
+            <p><a class="btn btn-default" href="#">View Details</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container panel-container">
+        <div class="row">
+          <div class="col-xs-6 col-sm-6 col-md3 col-lg-3">
+            <div class="panel price panel-grey">
+              <div class="panel-heading arrow-box text-center">
+                <h3>Starter Plan</h3>
+              </div>
+              <div class="panel-body text-center">
+                <p class="lead" style="font-size: 40px;"><strong>$3.99 / month</strong>                  
+              </div>
+              <ul class="list-group list-group-flush text-center">
+                <li class="list-group-item">1 Free Domain</li>
+                <li class="list-group-item">1GB Disk Space</li>
+                <li class="list-group-item">10GB Bandwidth</li>
+                <li class="list-group-item">5 Email Accounts</li>                
+              </ul>
+              <div class="panel-footer">
+                <a class="btn btn-lg btn-block btn-primary" href="#">BUY NOW</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md3 col-lg-3">
+            <div class="panel price panel-grey">
+              <div class="panel-heading arrow-box text-center">
+                <h3>Simple Plan</h3>
+              </div>
+              <div class="panel-body text-center">
+                <p class="lead" style="font-size: 40px;"><strong>$8.99 / month</strong>                  
+              </div>
+              <ul class="list-group list-group-flush text-center">
+                <li class="list-group-item">1 Free Domain</li>
+                <li class="list-group-item">5GB Disk Space</li>
+                <li class="list-group-item">25GB Bandwidth</li>
+                <li class="list-group-item">20 Email Accounts</li>                
+              </ul>
+              <div class="panel-footer">
+                <a class="btn btn-lg btn-block btn-primary" href="#">BUY NOW</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md3 col-lg-3">
+            <div class="panel price panel-grey">
+              <div class="panel-heading arrow-box text-center">
+                <h3>Standard Plan</h3>
+              </div>
+              <div class="panel-body text-center">
+                <p class="lead" style="font-size: 40px;"><strong>$12.99 / month</strong>                  
+              </div>
+              <ul class="list-group list-group-flush text-center">
+                <li class="list-group-item">1 Free Domain</li>
+                <li class="list-group-item">50GB Disk Space</li>
+                <li class="list-group-item">35GB Bandwidth</li>
+                <li class="list-group-item">30 Email Accounts</li>                
+              </ul>
+              <div class="panel-footer">
+                <a class="btn btn-lg btn-block btn-primary" href="#">BUY NOW</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md3 col-lg-3">
+            <div class="panel price panel-grey">
+              <div class="panel-heading arrow-box text-center">
+                <h3>Super Plan</h3>
+              </div>
+              <div class="panel-body text-center">
+                <p class="lead" style="font-size: 40px;"><strong>$20.99 / month</strong>                  
+              </div>
+              <ul class="list-group list-group-flush text-center">
+                <li class="list-group-item">2 Free Domains</li>
+                <li class="list-group-item">1TB Disk Space</li>
+                <li class="list-group-item">100GB Bandwidth</li>
+                <li class="list-group-item">Unlimited Email Accounts</li>                
+              </ul>
+              <div class="panel-footer">
+                <a class="btn btn-lg btn-block btn-primary" href="#">BUY NOW</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p class="pull-right"><a href="#">Back to Top></a></p>      
+        <p>Web Hosting &copy; 2016 &middot;<a href="#">&nbsp;Privacy&nbsp;</a>&middot;<a href="#">&nbsp;Terms</a></p>    
+      </div>
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</body>
+</html>
