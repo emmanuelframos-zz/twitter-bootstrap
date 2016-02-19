@@ -1,0 +1,131 @@
+body {
+	padding-top: 90px;
+}
+
+section{
+	padding: 30px 0;
+}
+
+.section-gray{
+	background: #f4f4f4;
+}
+
+.section-primary{
+	background: #0383c0;
+	color:#fff;
+	padding: 60px 0;
+}
+
+.section-secondary{
+	background: #e44d26;
+	color:#fff;
+	padding: 60px 0;
+}
+
+.section-title{
+	padding:10px;
+	background:#0383c0;
+	color:#fff;
+}
+
+.section-title small{
+	color:#ccc !important;
+}
+
+.slogan{
+	text-align: center;
+}
+
+.slogan h1{
+	font-size: 50px;
+	margin-bottom: 25px;
+}
+
+.slogan p{
+	font-size: 20px;
+}
+
+.slogan a{
+	margin-top: 20px;
+}
+
+.nav{
+	margin-top: 18px;
+}
+
+.navbar{
+	min-height:80px;
+	margin-bottom: :0 !important;
+}
+
+.navbar-brand{
+	height:auto;
+	padding-top:15px;
+	margin:0;
+}
+
+.navbar-nav{
+	margin:0;
+	padding:0;
+}
+
+.navbar-nav li{	
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.navbar-nav > li > a{	
+	padding:20px;
+	font-size:18px;
+	font-weight: bold;
+	border-right:1px solid #ccc;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+}
+
+.navbar-nav > li > a span{	
+	margin:5px 0 0 0 ;
+	padding:0;
+	font-size:14px;
+	display:block;
+	font-weight:normal;
+	font-family: arial;
+	text-transform: none;
+}
+
+.navbar-nav a:hover, .navbar-nav > .active > a {
+	background:#0383c0 !important;
+	color:#fff !important;
+}
+
+.jumbotron{
+	margin:0 !important;
+	min-height: 450px;
+	background:url(../img/bg.jpg) no-repeat;
+}
+
+h1, h2, h3{
+	text-transform: uppercase !important;
+	font-family: 'Oswald', sans-serif;
+}
+
+.jumbotron h1 {
+	font-size:55px;
+}
+
+.fa-color {
+	color:#0383c0;
+}
+
+.feature-list li{
+	list-style:none;
+	font-size:18px;
+	line-height:2em;
+}
+
+footer{
+	text-align:center;
+	height:60px;
+	background: #f4f4f4;
+	padding-top:20px;
+}
